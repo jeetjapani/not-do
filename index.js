@@ -25,5 +25,5 @@ for (let line of startupMessage.split("\n")) {
 	console.log(line)
 }
 
-app.listen(port, () => app.listen(port, () => cconsole.log(`The current environment is ${process.env.NODE_ENV}`);
+app.listen(port, () => app.listen(port, () => console.log(`The current environment is ${process.env.NODE_ENV}`);
 
