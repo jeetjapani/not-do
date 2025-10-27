@@ -26,5 +26,6 @@ for (let line of startupMessage.split("\n")) {
 }
 
 app.listen(port, () => {
-  console.log(`The current environment's is ${process.env}`)
+  console.log("The current environment variables are:\n" + JSON.stringify(process.env, null, 2))
 })
+
