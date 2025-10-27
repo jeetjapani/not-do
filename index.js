@@ -26,5 +26,5 @@ for (let line of startupMessage.split("\n")) {
 }
 
 app.listen(port, () => {
-  console.log(`The current environment's is ${process.env.NODE_ENV}`)
+  console.log(`The current environment's is ${process.env}`)
 })
